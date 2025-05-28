@@ -17,11 +17,11 @@
     <div id="body">
         <ul>
             <li>Sobre Mim</li>
-            <p>Eu gosto de unicórnios, eu caço eles e uso os chifres para fazer tochas</p>
+            <p>Sou profissional da área de tecnologia, atuo no desenvolvimento de sistemas, tenho experiência em meio acadêmico e privado. Costumo procurar a criação de soluções inteligentes para os mais diversos e complexos problemas.</p>
             <li>Formação Acadêmica</li>
-            <p>Graduação em Dead Rails; Mestrado em Neuroengenharia; Doutorado em Unicornologia</p>
+            <p>Graduação em Ciência da Computação e TI; Mestrado em Engenharia de Software; Doutorado em Inteligência Artificial</p>
             <li>Experiência profissional</li>
-            <table border="1">
+            <table id="exp">
                 <thead>
                     <tr>
                         <th>Empresa</th>
@@ -31,19 +31,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Microsoft</td>
-                        <td>Dono</td>
-                        <td>2 milhões de anos</td>
+                        <td class="info">Microsoft</td>
+                        <td class="info">Engenheiro de software</td>
+                        <td class="info">12 anos</td>
                     <tr>
                     <tr>
-                        <td>Roblox</td>
-                        <td>CEO do Dead Rails</td>
-                        <td>2 segundos</td>
+                        <td class="info">Roblox</td>
+                        <td class="info">TI</td>
+                        <td class="info">3 anos</td>
                     </tr>
                     <tr>
-                        <td>David Productions</td>
-                        <td>Animador de SBR</td>
-                        <td>Até a morte térmica do Universo</td>
+                        <td class="info">Google</td>
+                        <td class="info">Desenvolvedor</td>
+                        <td class="info">10 anos</td>
                     </tr>
                 </tbody>
             </table>
@@ -53,15 +53,21 @@
             <p>Número: (84) 99187-3650</p>
             <p>LinkedIn: Arthur Caçador de Unicórnios</p>
             <p>Twitter ('X' para os perdedores): TrojanN63</p>
-            <a href="https://youtu.be/dQw4w9WgXcQ?si=tTzf-wuNxtMpgh8S">curriculo</a>
-            <li>Para me contatar</li>
-            <form id="contato">
-                <p1>Nome:</p1>
-                <input type="text"><br>
-                <p1>E-mail:</p1>
-                <input type="text"><br>
-                <p1>Comentário</p1>
-                <input type="text">
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=tTzf-wuNxtMpgh8S">mais informações</a>
+            <li id="form">Para me contatar</li>
+            <table id="contato">
+                <tr>
+                    <td><p1>Nome:</p1></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><p1>E-mail:</p1></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr id="pede_comment">
+                    <td><p1>Comentário:</p1></td>
+                    <td><input id="comment" type="text"></td>
+                </tr>
             </form>
         </ul> 
     </div>   
