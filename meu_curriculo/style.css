@@ -47,8 +47,12 @@ hr{
 th{
     background-color: rgb(120, 145, 255);
 }
-a{
+a:link{
     font-size: 16px;
+    color: rgb(1, 1, 255);
+}
+a:hover{
+    color: rgb(155,1,255)
 }
 #contato{
     font-size: 16px;
